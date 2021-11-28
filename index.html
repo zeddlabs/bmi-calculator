@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<title>BMI Calculator</title>
+</head>
+<body style="min-height: 100vh;" class="d-flex justify-content-center align-items-center bg-primary">
+	<div class="card" style="width: 20rem;">
+		<div class="card-header">
+			BMI Calculator
+		</div>
+		<div class="card-body">
+			<div id="result">
+				
+			</div>
+			<div class="form-floating mb-2">
+				<input type="text" id="inputHeight" class="form-control">
+				<label for="inputHeight">Height</label>
+			</div>
+			<div class="form-floating mb-2">
+				<input type="text" id="inputWeight" class="form-control">
+				<label for="inputWeight">Weight</label>
+			</div>
+			<button type="button" class="btn btn-success float-end" id="calculate">Calculate</button>
+		</div>
+	</div>
+	
+	<!-- Bootstrap JS -->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<!-- My JS -->
+	<script src="js/main.js"></script>
+</body>
+</html>
